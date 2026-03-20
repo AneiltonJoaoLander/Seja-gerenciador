@@ -1,0 +1,25 @@
+body {
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(to bottom right, yellow, green);
+}
+
+.aumenta {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+input {
+    background: linear-gradient(to right, lightgreen, rgb(0, 197, 0));
+    min-height: 35px;
+    max-height: 50px;
+}
+
+select {
+    background-color: chartreuse;
+}
+
+button {
+    background-color: chartreuse;
+    cursor: copy;
+}
